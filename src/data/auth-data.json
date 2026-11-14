@@ -1,0 +1,7 @@
+{
+    "invalidLogin":{
+        "email": "nonexistent_qa_user@test.com",
+        "password": "WrongPassword!99",
+        "expectedError": "Your email or password is incorrect!"
+    }
+}

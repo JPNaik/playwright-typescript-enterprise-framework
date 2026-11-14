@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "paths": {
+      "@pages/*": ["./src/pages/*"],
+      "@fixtures/*": ["./src/fixtures/*"],
+      "@data/*": ["./src/data/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@config/*": ["./config/*"],
+      "@api/*": ["./src/api/*"]
+    },
+    "strict": true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*", "tests/**/*", "config/**/*", "playwright.config.ts"]
+}
